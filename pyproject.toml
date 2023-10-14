@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kwg-gpt"
+version = "0.1.0"
+description = "Example of enhancing GPT with expert data from KnowWhereGraph"
+authors = ["ThomasThelen <tommythelen@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kwg_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.28.1"
+langchain = "^0.0.314"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
