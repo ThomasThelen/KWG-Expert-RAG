@@ -1,4 +1,4 @@
-# GPT Augmented KnowWhereGraph
+# GPT Augmented with KnowWhereGraph
 
 GPT augmented with expert-expertise data from KnowWhereGraph, inspired by work from the one and only [Maxime Labonne](https://github.com/mlabonne).
 
