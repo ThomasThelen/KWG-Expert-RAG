@@ -1,20 +1,20 @@
-# GPT Augmented with KnowWhereGraph
+# KnowWhereGraph's Expert RAG Search
 
-GPT augmented with expert-expertise data from KnowWhereGraph, inspired by work from the one and only [Maxime Labonne](https://github.com/mlabonne).
+A RAG application that uses expert-expertise data from KnowWhereGraph. Inspired by work from the one and only [Maxime Labonne](https://github.com/mlabonne).
 
 ## Background
 
-[KnowWhereGraph](knowwheregraph.org) is a multi-billion relation knowledge graph that contains information about places, people, and their interactions. This repository retrieves a subset of that information and integrates it into GPT for high level question/answering.
+[KnowWhereGraph](knowwheregraph.org) is a multi-billion relation knowledge graph that contains information about places, people, and their interactions. This repository retrieves a subset of that information and uses langchain to spin up a small RAG for expert retrieval.
 
 ## Running
 
 Running the code first requires [poetry](https://python-poetry.org/docs/).
 
 1. Initialize a new environment with `poetry shell`
-2. Fetch the data from KnowWhereGraph with `poetry python3 fetch-data.py`
-3. Edit `question` variable with a question about an expert or expertise.
-4. Add your OpenAI API key to the environment with `export OPENAI_API_KEY=your_key_here` 
-4. Load the data & ask the question with `poetry run main.py`
+1. Fetch the data from KnowWhereGraph with `poetry python3 fetch-data.py`
+1. Edit `question` variable with a question about an expert or expertise.
+1. Add your OpenAI API key to the environment with `export OPENAI_API_KEY=your_key_here`
+1. Load the data & ask the question with `poetry run main.py`
 
 ## Demo
 
