@@ -9,7 +9,7 @@ packages = [{include = "kwg_gpt"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 openai = "^0.28.1"
-langchain = "^0.0.329"
+langchain = "^0.1.0"
 requests = "^2.31.0"
 
 
